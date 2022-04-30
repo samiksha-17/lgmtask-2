@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Katibeh&family=Merriweather:wght@700&display=swap');
+
+body{
+  background-color: rgb(177, 110, 110);
+}
+
+nav {
+    background-color: #c9b05e;
+    color:#E6E6E4;  
+    height: 9vh;
+    width: 100%;
+  }
+  .navitems {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .navitems h1 {
+    margin-top: 15px;
+    font-size: 32px;
+    color: #707050;
+    margin-left: 44px;
+    font-family: 'Katibeh', cursive;
+    font-family: 'Merriweather', serif;
+  }
+  .navitems h1:hover{
+    font-size: 35px;
+    cursor: pointer;
+    color: #082a2a;
+  }
+  .navitems button {
+    border: 5px solid #616149;
+    border-radius: 30px;
+    width: 13%;
+    height: 7vh;
+    color: rgb(119, 47, 47);
+    font-size: 20px;
+    background-color: #18d3d3;
+    margin-top: 7px;
+    margin-right: 10px;
+    font-family: 'Katibeh', cursive;
+    font-family: 'Merriweather', serif;
+}
+  .heading{
+    color: #c4c466;
+    text-align: center;
+    align-items: center;
+    font-family: 'Katibeh', cursive;
+    font-family: 'Merriweather', serif;
+  }
+  .heading:hover{
+    cursor: pointer;
+    font-style: italic;
+    color: #8f9732;
+  }
+  .fetchbutton:hover {
+    cursor: pointer;
+    color: #E6E6E4;
+    background-color: #7c2b75;
+  } 
+  .fetchuser {
+    width: 100%;
+    height: fit-content; 
+  }
+  #main {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .avatar {
+    border-radius: 25%;
+    border: 7px solid #E6E6E4;
+  }
+  .avatar:hover {
+    border-radius: 30%;
+  }
+
+  .profile_id {
+    width: 23%;
+    margin: 30px;
+    padding: 10px;
+    margin-top: 1.1rem;
+    border-radius: 10%;
+    border: 5px solid #E6E6E4;
+    text-align: center;
+    background-image: radial-gradient(rgb(63, 177, 212),  rgb(237, 52, 243));
+    transition: transform ease 0.2s;
+    opacity: 0.8;
+    font-family: 'Katibeh', cursive;
+    font-family: 'Merriweather', serif;
+    cursor: pointer;
+  }
+  .profile_id h3:hover{ 
+    color: #00FFFf;
+  }
+  .profile_id h1:hover{
+    color: #00FFFF;
+  }
+  
+  .profile_id p{
+    font-family: 'Katibeh', cursive;
+    font-family: 'Merriweather', serif;
+  }
+  .profile_id:hover {
+    color: #fff;
+    transform: scale(1.1);
+    opacity: 1;
+    
+  }
